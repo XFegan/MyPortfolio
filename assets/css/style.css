@@ -41,6 +41,141 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
+  text-decoration: underline;
+}
+
+
+/* Hero Style Start */
+.hero {
+  background-image: url('../images/hero-background.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.hero-form {
+  padding: 18px;
+  width: 400px;
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.hero-form h2 {
+  font-size: 35px;
+  margin: 0;
+  text-align: center;
+}
+/* Hero Style End */
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+
+/* work section*/
+.steps {
+  text-align: center;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: white;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: white;
+  font-size: 23px;
+}
+
+.steps span {
+  font-size: 38px;
+}
+
+.surfer {
+  width: 100%;
+  background-image: url('../images/sky-puzzel.jpg');
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 900px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.two-surfer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.led-wall {
+  width: 45%;
+  background-image: url('../images/led-wall.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.calculator {
+  width: 45%;
+  background-image: url('../images/codinglearn.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.pastel-puzzels{
+  width: 45%;
+  background-image: url('../images/sky-puzzel.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.run-buddy {
+  width: 45%;
+  background-image: url('../images/Screenshot\ \(22\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.section-title {
+  font-size: 100px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: black;
 }
 
 /*Footer start*/
@@ -68,104 +203,6 @@ footer a {
 
 section {
   padding: 60px;
-}
-
-/* Hero Style Start */
-.hero {
-  background-image: url('../images/hero-background.jpg');
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-/* Hero Style End */
-
-.hero-form {
-  background-color:black;
-  padding: 18px;
-  width: 400px;
-  color: white;
-  position: absolute;
-  bottom: 40px;
-  right: 40px;
-}
-
-.hero-form h2 {
-  font-size: 35px;
-  margin: 0;
-  text-align: center;
-}
-
-.intro {
-  text-align: center;
-}
-
-.intro p {
-  line-height: 1.7;
-  color: #39a6b2;
-  width: 80%;
-  font-size: 20px;
-  margin: 0 auto;
-}
-
-.steps {
-  text-align: center;
-}
-
-.steps div {
-  margin-bottom: 80px;
-}
-
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-}
-
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
-}
-
-.steps p {
-  color: #39a6b2;
-  font-size: 23px;
-}
-
-.steps span {
-  font-size: 38px;
-}
-
-.surfer {
-  width: 100%;
-}
-
-.two-surfer{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.surfer-small {
-  width: 40%;
-}
-
-
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
 }
 
 
