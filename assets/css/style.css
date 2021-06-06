@@ -54,34 +54,68 @@ header nav ul li a {
   position: relative;
 }
 
+.hero Img {
+  border-radius: 50%;
+  padding: 8px;
+  height: 260px;
+  width: 260px;
+  position: relative; top: -40px;
+}
 
 .hero-form {
   padding: 18px;
   width: 400px;
   color: white;
   position: absolute;
-  bottom: 40px;
+  bottom: 1px;
   right: 40px;
+}
+.hero-form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .hero-form h2 {
-  font-size: 35px;
-  margin: 0;
-  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  color:white;
+  font-family:cursive;
+  font-weight: 650;
+  font-size: 22px;
 }
 /* Hero Style End */
+
+
+/*about me section*/
 .intro {
-  text-align: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 20px 10px 10px 10px;
 }
 
-.intro p {
-  line-height: 1.7;
-  color: #39a6b2;
+.intro-p {
   width: 80%;
-  font-size: 20px;
-  margin: 0 auto;
+  margin: 40px;
+  color:black;
+  padding: 5px;
+  font-size: 26px;
+  line-height: 1.4;
 }
 
+.primary-title {
+  width: 10%;
+  margin:10px 10px 10px 40px;
+  border-right: solid red 4px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: right;
+  color:red;
+  padding: 5px;
+}
 
 /* work section*/
 .steps {
@@ -165,18 +199,7 @@ header nav ul li a {
   position: relative;
 }
 
-.section-title {
-  font-size: 100px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
 
-.primary-border {
-  border-color: black;
-}
 
 /*Footer start*/
 footer {
