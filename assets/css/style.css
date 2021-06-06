@@ -156,49 +156,28 @@ header nav ul li a {
   border-radius: 0px 15px 15px 0px;
 }
 
-.two-surfer{
-  width: 100%;
+.projects {
   display: flex;
-  justify-content: space-around;
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  flex: 1;
+  margin-left: 234px;
+  border-left: solid 4px red;
 }
 
-.led-wall {
-  width: 45%;
-  background-image: url('../images/led-wall.jpg');
-  background-repeat: no-repeat;
+.flex-item {
+  display: flex;
+  width: 38%;
+  height: 150px;
+  border:  solid 5px rgb(114, 167, 192);
+  align-items: center;
+  margin: 20px;
+  background-image: url(../images/placeholder3.png);
   background-size: cover;
-  background-position: center;
-  position: relative;
+  color: rgba(40, 45, 99, 0.952);
+  border-radius: 20px;
 }
-
-.calculator {
-  width: 45%;
-  background-image: url('../images/codinglearn.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.pastel-puzzels{
-  width: 45%;
-  background-image: url('../images/sky-puzzel.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.run-buddy {
-  width: 45%;
-  background-image: url('../images/Screenshot\ \(22\).png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-
 
 /*Footer start*/
 footer {
