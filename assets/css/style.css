@@ -59,7 +59,7 @@ header nav ul li a {
   padding: 8px;
   height: 260px;
   width: 260px;
-  position: relative; top: -40px;
+  position: relative; top: 20px; left: 30px;
 }
 
 .hero-form {
@@ -83,7 +83,7 @@ header nav ul li a {
   color:white;
   font-family:cursive;
   font-weight: 650;
-  font-size: 22px;
+  font-size: 25px;
 }
 /* Hero Style End */
 /*about me section*/
@@ -99,7 +99,7 @@ header nav ul li a {
   margin: 40px;
   color:black;
   padding: 5px;
-  font-size: 26px;
+  font-size: 23px;
   line-height: 1.4;
 }
 
@@ -108,8 +108,8 @@ header nav ul li a {
   margin:10px 10px 10px 40px;
   border-right: solid red 4px;
   text-align: right;
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 600;
+  font-size: 40px;
   text-align: right;
   color:red;
   padding: 5px;
@@ -118,7 +118,7 @@ header nav ul li a {
 /* work section*/
 .my-work {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   flex-wrap: wrap;
   margin: 10px;
 }
@@ -160,7 +160,7 @@ header nav ul li a {
   display: flex;
   width: 70%;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content:start;
   flex: 1;
   margin-left: 234px;
   border-left: solid 4px red;
@@ -168,7 +168,7 @@ header nav ul li a {
 
 .flex-item {
   display: flex;
-  width: 38%;
+  width: 47%;
   height: 150px;
   border:  solid 5px rgb(114, 167, 192);
   align-items: center;
@@ -213,33 +213,16 @@ header nav ul li a {
   font-weight: 500;
 }
 
-/*Footer start*/
-footer {
+/*Contact info*/
+.contat-me {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.contact-me a {
   width: 100%;
-  padding: 40px 35px;
+  height: 75%;
+  text-align: center;
 }
-
-footer h2 {
-  display: inline;
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  float: right;
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: #024e76;
-}
-
-section {
-  padding: 60px;
-}
-
-
-
-/* REACH OUT STYLES END */
