@@ -226,3 +226,26 @@ header nav ul li a {
   height: 75%;
   text-align: center;
 }
+.contacts {
+  display: flex;
+}
+
+.contacts ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 350%;
+  padding-top: 40px;
+  margin-right: 10px;
+}   
+
+a {
+  color: blue;
+}
+
+#phone {
+  text-decoration: underline;
+  color: blue;
+}
