@@ -226,26 +226,23 @@ header nav ul li a {
   height: 75%;
   text-align: center;
 }
-.contacts {
-  display: flex;
+
+.contact-me nav {
+  float: right;
+  margin: 7px 0;
 }
 
-.contacts ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  width: 350%;
-  padding-top: 40px;
-  margin-right: 10px;
-}   
-
-a {
-  color: blue;
+.contact-me nav ul li {
+  display: inline;
 }
 
-#phone {
+.contact-me nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
   text-decoration: underline;
-  color: blue;
+}
+.contact-me a {
+  text-decoration: none;
+  color: black;
 }
